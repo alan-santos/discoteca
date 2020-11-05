@@ -1,0 +1,11 @@
+@(discos: List[Disco])
+
+<table>
+<tr><td>Titulo</td><td>Condicao</td></tr>
+@for(d <- discos){
+<tr><td>@d.titulo</td>
+	<td>@d.condicao</td>
+</tr>
+
+}
+</table>
